@@ -8,7 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var birthdayTextField: UITextField!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
+    @IBOutlet weak var birthdayLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        print(hello world)
@@ -16,4 +25,3 @@ class ViewController: UIViewController {
 
 
 }
-
